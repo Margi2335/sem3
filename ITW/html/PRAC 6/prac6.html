@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enchanted Mehsana</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Caveat', cursive;
+            background: linear-gradient(to bottom right, #F76D57, #6438A4);
+            color: #000000;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .city-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            display: block;
+            margin: 0 auto;
+        }
+
+        .highlights {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .highlight-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+            padding: 5px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Discover the Enchantment of Mehsana</h1>
+        <p>Where Heritage Meets Modernity</p>
+    </header>
+    <div class="container">
+        <h1>Welcome to Mehsana</h1>
+        <p>Step into a world of wonder in Mehsana, a city that seamlessly blends its rich heritage with a modern spirit.
+            From historical treasures to artistic delights, every corner tells a story.</p>
+        <img class="city-image" src="2.jpg" alt="Mehsana City">
+        <div class="highlights">
+            <div class="highlight-card">
+                <h2>Hidden Gems</h2>
+                <p>Uncover the hidden gems of Mehsana, from quaint streets to serene gardens, and experience the city's
+                    unique charm.</p>
+            </div>
+            <div class="highlight-card">
+                <h2>Artistic Vibes</h2>
+                <p>Immerse yourself in the artistic vibes of Mehsana. The city is home to galleries, murals, and
+                    creative spaces that will captivate your senses.</p>
+            </div>
+            <div class="highlight-card">
+                <h2>Local Flavors</h2>
+                <p>Embark on a culinary journey through Mehsana's local flavors. Savory spices and delightful sweets
+                    await your taste buds.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
